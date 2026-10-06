@@ -18,7 +18,7 @@ Admin username and password.
 terraform {
   required_providers {
     bifrost = {
-      source  = "registry.terraform.io/airhelp-osp/bifrost"
+      source  = "registry.terraform.io/fallen-up/bifrost"
       version = "~> 0.1"
     }
   }
@@ -39,7 +39,7 @@ Bifrost Enterprise admin API key (`bfak_...`), sent as `Authorization: Bearer <t
 terraform {
   required_providers {
     bifrost = {
-      source  = "registry.terraform.io/airhelp-osp/bifrost"
+      source  = "registry.terraform.io/fallen-up/bifrost"
       version = "~> 0.1"
     }
   }

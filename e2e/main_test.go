@@ -95,7 +95,7 @@ func writeTofuRC(providerDir string) (string, error) {
 	}
 	content := fmt.Sprintf(`provider_installation {
   dev_overrides {
-    "registry.terraform.io/airhelp-osp/bifrost" = %q
+    "registry.terraform.io/fallen-up/bifrost" = %q
   }
   direct {}
 }

@@ -21,7 +21,7 @@ func main() {
 	flag.Parse()
 
 	opts := providerserver.ServeOpts{
-		Address: "registry.terraform.io/airhelp-osp/bifrost",
+		Address: "registry.terraform.io/fallen-up/bifrost",
 		Debug:   debug,
 	}
 
